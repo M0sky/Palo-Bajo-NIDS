@@ -2,11 +2,11 @@
 
 Este laboratorio ha sido diseñado como entorno de pruebas para el desarrollo de un sistema IDS/IPS basado en Deep Learning, utilizando GNS3, máquinas virtuales y routers Cisco. El sistema ha sido entrenado con flujos de red capturados en un entorno personal controlado, por lo que su rendimiento está optimizado para este contexto y puede no generalizar a otras redes sin ajustes.
 
-## [+] Topología del Entorno
+## [+] Topología del entorno
 
-![Topología del laboratorio](entorno.png)
+![Topología del laboratorio](Entorno.PNG)
 
-## [+] Componentes del Entorno
+## [+] Componentes del entorno
 
 ### [>] Zona Interna (Redes 10.1.X.0/24)
 - **Kali Linux** (`10.1.1.10`): Máquina atacante para generar tráfico malicioso.
@@ -20,7 +20,7 @@ Este laboratorio ha sido diseñado como entorno de pruebas para el desarrollo de
   - IP interna: `10.1.4.40`
   - IP externa: `20.1.1.10`
 
-### [>] Zona Externa / DMZ
+### [>] Zona externa / DMZ
 - **R2**: Segundo router Cisco 7200, conecta el IDS/IPS con la red víctima.
 - **Máquina Víctima** (`20.1.2.20`): Simula un host en la red externa, objetivo de los ataques o tráfico legítimo.
 
@@ -33,3 +33,7 @@ Este laboratorio ha sido diseñado como entorno de pruebas para el desarrollo de
 - **TensorFlow / Keras**: Modelo multiclase de detección de intrusiones en tiempo real.
 - **Wazuh**: Plataforma SIEM para detección, alertas y monitoreo.
 - **Wireshark**: Captura y análisis de tráfico.
+
+## [+] Verificación de rutas
+
+![Verificación de rutas](Traceroute.PNG)
