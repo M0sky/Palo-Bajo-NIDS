@@ -8,7 +8,7 @@ Este laboratorio ha sido diseñado como entorno de pruebas para el desarrollo de
 
 ## [+] Componentes del entorno
 
-### [>] Zona Interna (Redes 10.1.X.0/24)
+### [>] Zona Externa / DMZ (Redes 10.1.X.0/24)
 - **Kali Linux** (`10.1.1.10`): Máquina atacante para generar tráfico malicioso.
 - **Windows 10** (`10.1.2.20`): Máquina víctima para pruebas de ataques dirigidos (IIS, RDP...).
 - **Metasploitable2** (`10.1.3.30`): Sistema vulnerable con varios servicios inseguros expuestos.
@@ -20,7 +20,7 @@ Este laboratorio ha sido diseñado como entorno de pruebas para el desarrollo de
   - IP interna: `10.1.4.40`
   - IP externa: `20.1.1.10`
 
-### [>] Zona externa / DMZ
+### [>] Zona interna (Redes 20.1.X.0/24)
 - **R2**: Segundo router Cisco 7200, conecta el IDS/IPS con la red víctima.
 - **Máquina Víctima** (`20.1.2.20`): Simula un host en la red externa, objetivo de los ataques o tráfico legítimo.
 
