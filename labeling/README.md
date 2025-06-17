@@ -2,13 +2,9 @@
 
 Este módulo forma parte del sistema IDS/IPS basado en Deep Learning desarrollado en el laboratorio `myLab`. Contiene los scripts necesarios para procesar capturas .pcap, extraer características mediante Zeek y generar datasets etiquetados para entrenamiento y validación de modelos de clasificación.
 
----
-
 ## [+] Captura del proceso
 
 ![Proceso de etiquetado con Zeek](./images/autoFlows.PNG)
-
----
 
 ## [+] Funcionamiento del pipeline
 
@@ -22,8 +18,6 @@ Esto realiza automáticamente:
 - Análisis del tráfico con Zeek (`conn.log`)
 - Parsing y etiquetado con `zeekParser.py`
 - Generación del dataset final `dataset.csv`
-
----
 
 ## [+] Evolución del sistema
 
@@ -41,8 +35,6 @@ Esto realiza automáticamente:
 - `conn_state` utilizado como feature categórica
 - Pipeline más limpio y mantenible.
 
----
-
 ## [+] Tipos de tráfico generados
 
 **Escaneos Nmap (label: 1, category: scan)**
@@ -52,8 +44,6 @@ Esto realiza automáticamente:
 **Tráfico normal (label: 0, category: normal)**
 - Sesiones legítimas FTP, SSH, HTTP, DNS, ICMP, SMB, RDP...
 - Generado en escenarios controlados dentro de GNS3
-
----
 
 ## [+] Tecnologías utilizadas
 
