@@ -2,7 +2,7 @@
 
 Esta sección contiene todos los scripts, configuraciones y recursos necesarios para desplegar y poner en marcha el sistema IDS/IPS basado en Deep Learning desarrollado en el laboratorio `myLab`. Incluye la configuración y automatización de herramientas como Wazuh, Suricata, Fluent Bit y el entorno de red.
 
-## [+] Contenido de la carpeta
+## [+] Contenido
 
 ### [>] Wazuh
 
