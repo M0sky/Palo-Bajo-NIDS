@@ -1,4 +1,4 @@
-# Laboratorio de Red - GNS3 (myLab)
+# Laboratorio de red - GNS3 (myLab)
 
 Este laboratorio ha sido diseñado como entorno de pruebas para el desarrollo de un sistema IDS/IPS basado en Deep Learning, utilizando GNS3, máquinas virtuales y routers Cisco. El sistema ha sido entrenado con flujos de red capturados en un entorno personal controlado, por lo que su rendimiento está optimizado para este contexto y puede no generalizar a otras redes sin ajustes.
 
