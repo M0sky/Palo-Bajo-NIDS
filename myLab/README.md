@@ -14,7 +14,7 @@ Este laboratorio ha sido diseñado como entorno de pruebas para el desarrollo de
 - **Metasploitable2** (`10.1.3.30`): Sistema vulnerable con varios servicios inseguros expuestos.
 - **R1**: Router Cisco 7200 que conecta la zona externa con el IDS/IPS y realiza el enrutamiento entre las distintas subredes.
 
-### [>] IDS/IPS (DMZ)
+### [>] IDS/IPS
 
 - **Ubuntu**: Máquina con el IP forwarding activado para ver los flows completos mediante dos interfaces.
   - IP interna: `10.1.4.40`
@@ -22,7 +22,7 @@ Este laboratorio ha sido diseñado como entorno de pruebas para el desarrollo de
 
 ### [>] Zona interna (Redes 20.1.X.0/24)
 - **R2**: Segundo router Cisco 7200, conecta el IDS/IPS con la red víctima.
-- **Máquina Víctima** (`20.1.2.20`): Simula un host en la red externa, objetivo de los ataques o tráfico legítimo.
+- **Máquina Víctima** (`20.1.2.20`): Simula un host en la red interna, objetivo de los ataques o tráfico legítimo.
 
 ## [+] Tecnologías utilizadas
 
