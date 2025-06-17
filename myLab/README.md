@@ -4,7 +4,7 @@ Este laboratorio ha sido diseñado como entorno de pruebas para el desarrollo de
 
 ## [+] Topología del entorno
 
-![Topología del laboratorio](Entorno.PNG)
+![Topología del laboratorio](./images/Entorno.PNG)
 
 ## [+] Componentes del entorno
 
@@ -36,4 +36,4 @@ Este laboratorio ha sido diseñado como entorno de pruebas para el desarrollo de
 
 ## [+] Verificación de rutas
 
-![Verificación de rutas](Traceroute.PNG)
+![Verificación de rutas](./images/Traceroute.PNG)
