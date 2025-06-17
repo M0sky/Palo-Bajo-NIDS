@@ -1,4 +1,4 @@
-# Pipeline de Etiquetado Automático - Labeling
+# Pipeline de etiquetado automático - Labeling
 
 Este módulo forma parte del sistema IDS/IPS basado en Deep Learning desarrollado en el laboratorio `myLab`. Contiene los scripts necesarios para procesar capturas .pcap, extraer características mediante Zeek y generar datasets etiquetados para entrenamiento y validación de modelos de clasificación.
 
