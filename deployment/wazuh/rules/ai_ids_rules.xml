@@ -1,0 +1,8 @@
+<group name="local,ai_ids_test">
+  <!-- Sobrescribo la regla 86600 para ai_alert -->
+  <rule id="86600" level="15" overwrite="yes">
+    <decoded_as>json</decoded_as>
+    <field name="event_type">ai_alert</field>
+    <description>Overridden Suricata messages to alert on AI alerts</description>
+  </rule>
+</group>
