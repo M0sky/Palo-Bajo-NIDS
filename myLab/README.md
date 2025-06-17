@@ -12,7 +12,7 @@ Este laboratorio ha sido diseñado como entorno de pruebas para el desarrollo de
 - **Kali Linux** (`10.1.1.10`): Máquina atacante para generar tráfico malicioso.
 - **Windows 10** (`10.1.2.20`): Máquina víctima para pruebas de ataques dirigidos (IIS, RDP...).
 - **Metasploitable2** (`10.1.3.30`): Sistema vulnerable con varios servicios inseguros expuestos.
-- **R1**: Router Cisco 7200 que conecta la zona interna con el IDS/IPS y realiza el enrutamiento entre las distintas subredes.
+- **R1**: Router Cisco 7200 que conecta la zona externa con el IDS/IPS y realiza el enrutamiento entre las distintas subredes.
 
 ### [>] IDS/IPS
 
