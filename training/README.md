@@ -58,7 +58,7 @@ El modelo logra un excelente rendimiento con:
 | scan    | 0.99      | 0.98   | 0.99     | 588     |
 | **Accuracy**  |       |        | **0.99** | 1188    |
 
-He utilizado distintas técnicas de preprocesado y regularización para garantizar robustez y evitar sobreajuste.
+Donde he utilizado distintas técnicas de preprocesado y regularización para garantizar robustez y evitar sobreajuste.
 
 ## [+] Tecnologías utilizadas
 
