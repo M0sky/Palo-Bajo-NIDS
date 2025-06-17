@@ -15,7 +15,7 @@ Esta sección contiene los scripts y recursos necesarios para el preprocesado de
 ## [+] Funcionamiento del pipeline
 
 1. Ejecutar `preprocesado.py` para preparar el dataset balanceado y limpio, listo para entrenar.
-2. Ejecutar `entrenamiento.py` para entrenar el modelo, validar y guardar:
+2. Ejecutar `entrenamientoZEEK.py` para entrenar el modelo, validar y guardar:
    - Modelo entrenado (`modelo_FINAL.keras`)
    - Pipeline de preprocesado (`preprocessing_pipeline_FINAL.pkl`)
    - Codificador de etiquetas (`label_encoder_FINAL.pkl`)
