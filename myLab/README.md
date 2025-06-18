@@ -37,3 +37,9 @@ Este laboratorio ha sido diseñado como entorno de pruebas para el desarrollo de
 ## [+] Verificación de rutas
 
 ![Verificación de rutas](./images/Traceroute.PNG)
+
+## Nota importante sobre imágenes y máquinas virtuales
+
+Para poder levantar correctamente la topología de GNS3, es necesario disponer de las imágenes de los routers Cisco 7200, así como las máquinas virtuales (Kali, Windows 10, Metasploitable2, Ubuntu 22.04) que se emplean en el laboratorio.
+
+Se recomienda que el usuario configure las imágenes localmente siguiendo la documentación oficial de GNS3 y las instrucciones del laboratorio para obtener un entorno funcional.
