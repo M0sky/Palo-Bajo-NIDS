@@ -26,23 +26,18 @@ nohup /opt/kafka/bin/kafka-server-start.sh /opt/kafka/config/server.properties >
 sleep 10
 
 echo "[*] Borrando tópicos..."
-/opt/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --delete --topic zeek-flows 2>/dev/null
-/opt/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --delete --topic suricata-flows 2>/dev/null
+/opt/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --delete --topic zeek-flows > /dev/null 2>&1
+/opt/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --delete --topic suricata-flows > /dev/null 2>&1
 sleep 2
 
-echo "[*] Recreando tópicos:"
+echo "[*] Recreando tópicos..."
 /opt/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --create --topic zeek-flows --partitions 1 --replication-factor 2>/dev/null
 /opt/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --create --topic suricata-flows --partitions 1 --replication-factor 2>/dev/null
-
-echo "[*] Estado actual de los tópicos:"
-/opt/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --list 2>/dev/null
-/opt/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --describe --topic zeek-flows 2>/dev/null
-/opt/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --describe --topic suricata-flows 2>/dev/null
 
 echo "[*] Lanzando Fluent Bit..."
 nohup td-agent-bit -c /etc/td-agent-bit/td-agent-bit.conf > /tmp/td-agent-bit.log 2>&1 &
 
-echo "[*] Iniciando Suricata en ens33..."
+echo "[*] Iniciando Suricata..."
 nohup suricata -c /etc/suricata/suricata.yaml -i ens33 > /tmp/suricata.log 2>&1 &
 
 echo "[*] Iniciando Zeek..."
