@@ -1,0 +1,21 @@
+Configuración IP de Windows
+
+   Nombre del host. . . . . . . . . . . : DESKTOP-T0MPHL6
+   Sufijo DNS principal . . . . . . . . : 
+   Tipo de nodo . . . . . . . . . . . . : híbrido
+   Enrutamiento habilitado. . . . . . . : no
+   Proxy WINS habilitado. . . . . . . . : no
+
+Adaptador de Ethernet Ethernet:
+
+   Sufijo DNS específico para la conexión . . : 
+   Descripción. . . . . . . . . . . . . . . . : Intel(R) PRO/1000 MT Network Connection
+   Dirección física . . . . . . . . . . . . . : 00-0C-29-46-A4-54
+   DHCP habilitado. . . . . . . . . . . . . . : no
+   Configuración automática habilitada. . . . : sí
+   Dirección IPv4 . . . . . . . . . . . . . . : 10.1.2.20(Preferido)
+   Máscara de subred. . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada. . . . . . : 10.1.2.1
+   Servidores DNS . . . . . . . . . . . . . . : 8.8.8.8
+                                               1.1.1.1
+   NetBIOS sobre TCP/IP . . : habilitado
