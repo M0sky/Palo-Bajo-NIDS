@@ -34,7 +34,7 @@ git lfs pull
     - **Zeek**: Utilizado para análisis de flujos (TCP flags y estado de la conexion).
     - **Wazuh**: Plataforma SIEM para monitorizar alertas.
 
-5. Ejecutar el script de despliegue ([`deployment/startConfiguration.sh`](./deployment/startConfiguration.sh).
+5. Ejecutar el script de despliegue ([`deployment/scripts/startConfiguration.sh`](./deployment/scripts/startConfiguration.sh).
 6. Generar escaneos y ataques desde Kali Linux para probar el sistema.
 7. Monitorizar alertas y eventos en Wazuh.
 
