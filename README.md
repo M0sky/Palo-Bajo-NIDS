@@ -28,11 +28,11 @@ git lfs pull
 
 3. Configurar la topología en GNS3 (ver carpeta [`myLab`](./myLab/) y ZIP adjunto).
 4. Preparar la máquina ubuntu donde se despliega el IDS/IPS, habiendo instalado y configurado las siguientes herramientas:
-- **Apache Kafka y Zookeper**: Crear y configurar los tópicos zeek-flows y suricata-flows.
-- **Fluent Bit**: Empleado para leer logs de Suricata y Zeek y enviarlos a Kafka. Archivo de configuración: [`deployment/fluent-bit/td-agent-bit.conf`](./deployment/fluent-bit/td-agent-bit.conf).
-- **Suricata**: Utilizado para asegurar la consistencia de los flujos. Archivo de configuración: [`deployment/suricata/suricata.yaml`](./deployment/suricata/suricata.yaml).
-- **Zeek**: Utilizado para análisis de flujos (TCP flags y estado de la conexion).
-- **Wazuh**: Plataforma SIEM para monitorizar alertas.
+  - **Apache Kafka y Zookeper**: Crear y configurar los tópicos zeek-flows y suricata-flows.
+  - **Fluent Bit**: Empleado para leer logs de Suricata y Zeek y enviarlos a Kafka. Archivo de configuración: [`deployment/fluent-bit/td-agent-bit.conf`](./deployment/fluent-bit/td-agent-bit.conf).
+  - **Suricata**: Utilizado para asegurar la consistencia de los flujos. Archivo de configuración: [`deployment/suricata/suricata.yaml`](./deployment/suricata/suricata.yaml).
+  - **Zeek**: Utilizado para análisis de flujos (TCP flags y estado de la conexion).
+  - **Wazuh**: Plataforma SIEM para monitorizar alertas.
 
 5. Ejecutar el script de despliegue ([`deployment/startConfiguration.sh`](`deployment/startConfiguration.sh`).
 6. Generar escaneos y ataques desde Kali Linux para probar el sistema.
