@@ -7,6 +7,7 @@ Sistema para la detección y prevención de intrusiones en redes mediante la apl
 ## [+] Resumen
 
 Sistema IDS/IPS que utiliza un modelo de clasificación binaria basado en una red neuronal tipo Multilayer Perceptron (MLP), entrenado con tráfico de red realista. Integra captura de paquetes, análisis de flujos (Zeek, Suricata), procesamiento en tiempo real (Kafka, Fluent Bit) y alertas SIEM (Wazuh).
+
 **Enfoque:** El sistema se centra en la detección basada en comportamiento y características de flujo, no en firmas específicas. Por tanto, el modelo no utiliza ni puertos ni direcciones IP para realizar la clasificación, priorizando la generalización frente a patrones estáticos.
 
 ## [+] Prueba de concepto
