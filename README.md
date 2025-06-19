@@ -46,7 +46,7 @@ Esta demostración muestra paso a paso el funcionamiento del sistema IDS/IPS des
   <img src="./images/noPing.PNG" alt="Ping bloqueado" />
 </p>
 <p style="text-align: left; margin-top: 0; margin-bottom: 1em;">
-  <em>Kali no recibe respuesta al ping a la víctima tras aplicar reglas <code>iptables</code> por detección previa del escaneo.</em>
+  <em>Kali no recibe respuesta del ping a la víctima tras aplicar reglas <code>iptables</code> por detección previa del escaneo.</em>
 </p>
 
 ### 5. Wazuh Dashboard (vista 1)
