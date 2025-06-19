@@ -100,7 +100,7 @@ git lfs pull
 ## [+] Estructura del repositorio
 
 - `myLab/`: Topología en GNS3.
-- `labeling/`: Pipeline para generación de datasets etiquetados a partir de las capturas PCAP.
+- `labeling/`: Pipeline para generar datasets etiquetados a partir de las capturas PCAP.
 - `training/`: Scripts de preprocesado y entrenamiento del modelo de clasificación binario.
 - `deployment/`: Configuraciones y scripts para despliegue en tiempo real del sistema.
 
