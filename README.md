@@ -103,3 +103,12 @@ git lfs pull
 - `labeling/`: Pipeline para generación de datasets etiquetados a partir de las capturas PCAP.
 - `training/`: Scripts de preprocesado y entrenamiento del modelo de clasificación binario.
 - `deployment/`: Configuraciones y scripts para despliegue en tiempo real del sistema.
+
+## [+] Propuesta de arquitectura
+
+<p align="center">
+  <img src="./images/arquitectura.PNG" alt="Arquitectura IDS/IPS" />
+</p>
+<p style="text-align: left; margin-top: 0; margin-bottom: 1em;">
+  <em>Arquitectura general del sistema de detección y prevención de intrusiones (IDS/IPS) centrado en comportamiento.</em>
+</p>
