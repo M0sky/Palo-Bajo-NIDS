@@ -19,29 +19,38 @@ _Ejecución del script `startConfiguration.sh`, que inicia Kafka, Zookeeper, Flu
 
 ### 2. Ataque scan ACK desde Kali
 
-![Escaneo ACK desde Kali](./images/scanACK.PNG)  
+<p align="center">
+  <img src="./images/scanACK.PNG" alt="Escaneo ACK desde Kali" />
+</p>
 _Kali realiza un escaneo ACK dirigido a la máquina víctima para detectar puertos abiertos._
 
 ### 3. Clasificación en tiempo real del modelo
 
-![Clasificación en tiempo real](./images/clasificacion.PNG)  
+<p align="center">
+  <img src="./images/clasificacion.PNG" alt="Clasificación en tiempo real" />
+</p>
 _Visualización de la salida del consumidor AI: se observa un primer ping detectado como tráfico normal, y el resto de flujos correctamente clasificados como escaneo (`scan`)._
 
 ### 4. Bloqueo de ping desde Kali a la víctima
 
-![Ping bloqueado](./images/noPing.PNG)  
+<p align="center">
+  <img src="./images/noPing.PNG" alt="Ping bloqueado" />
+</p>
 _Kali no recibe respuesta al ping a la víctima tras aplicar reglas `iptables` por detección previa del escaneo._
 
 ### 5. Wazuh Dashboard (vista 1)
 
-![Wazuh Dashboard 1](./images/wazuhDashboard1.PNG)  
+<p align="center">
+  <img src="./images/wazuhDashboard1.PNG" alt="Wazuh Dashboard 1" />
+</p>
 _Panel de alertas en Wazuh mostrando eventos generados por la detección del escaneo, con detalles contextualizados._
 
 ### 6. Wazuh Dashboard (vista 2)
 
-![Wazuh Dashboard 2](./images/6_wazuh_alert_2.png)  
+<p align="center">
+  <img src="./images/6_wazuh_alert_2.png" alt="Wazuh Dashboard 2" />
+</p>
 _Vista detallada de la alerta en Wazuh, con información de MITRE ATT&CK sobre la técnica y táctica detectadas._
-
 ## [+] Cómo usar
 
 1. Clonar el repositorio:
