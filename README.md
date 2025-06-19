@@ -61,7 +61,7 @@ Esta demostración muestra paso a paso el funcionamiento del sistema IDS/IPS des
 ### 6. Wazuh Dashboard (vista 2)
 
 <p align="center">
-  <img src="./images/wazuhDashboard2.png" alt="Wazuh Dashboard 2" />
+  <img src="./images/wazuhDashboard2.PNG" alt="Wazuh Dashboard 2" />
 </p>
 <p style="text-align: left; margin-top: 0; margin-bottom: 1em;">
   <em>Vista detallada de la alerta en Wazuh, con información de MITRE ATT&CK sobre la técnica y táctica detectadas.</em>
