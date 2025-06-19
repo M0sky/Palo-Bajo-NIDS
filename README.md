@@ -107,7 +107,7 @@ git lfs pull
 ## [+] Propuesta de arquitectura
 
 <p align="center">
-  <img src="./images/arquitectura.PNG" alt="Arquitectura IDS/IPS" />
+  <img src="./images/arquitectura.png" alt="Arquitectura IDS/IPS" />
 </p>
 <p style="text-align: left; margin-top: 0; margin-bottom: 1em;">
   <em>Arquitectura general del sistema de detección y prevención de intrusiones (IDS/IPS) centrado en comportamiento.</em>
