@@ -2,7 +2,7 @@
 
 Sistema para la detección y prevención de intrusiones en redes mediante la aplicación de técnicas avanzadas de deep learning.
 
-**Nota:** Este sistema se centra principalmente en la detección de técnicas de **Active Scanning** según la matriz MITRE ATT&CK, especialmente la técnica [T1595 - Active Scanning](https://attack.mitre.org/techniques/T1595/).
+**Nota:** Este sistema se centra principalmente en la detección de técnicas de **Active Scanning** basado en la matriz MITRE ATT&CK, especialmente la técnica [T1595 - Active Scanning](https://attack.mitre.org/techniques/T1595/).
 
 ## [+] Resumen
 
@@ -39,7 +39,7 @@ Esta demostración muestra paso a paso el funcionamiento del sistema IDS/IPS des
 </p>
 </p>
 <p style="text-align: left; margin-top: 0; margin-bottom: 1em;">
-  <em>Visualización de la salida del consumidor AI: se observa un primer ping detectado como tráfico normal, y el resto de flujos correctamente clasificados como escaneo (<code>scan</code>).</em>
+  <em>Visualización de la salida del consumidor AI: se observa un primer ping detectado como tráfico normal y el resto de flujos correctamente clasificados como escaneo (<code>scan</code>).</em>
 </p>
 
 ### 4. Bloqueo de ping desde Kali a la víctima
@@ -87,10 +87,10 @@ git lfs pull
 
 3. Configurar la topología en GNS3 (ver carpeta [`myLab`](./myLab/) y ZIP adjunto).
 4. Preparar la máquina ubuntu donde se despliega el IDS/IPS, habiendo instalado y configurado las siguientes herramientas:
-    - **Apache Kafka y Zookeper**: Crear y configurar los tópicos zeek-flows y suricata-flows.
+    - **Apache Kafka y Zookeeper**: Crear y configurar los tópicos zeek-flows y suricata-flows.
     - **Fluent Bit**: Empleado para leer logs de Suricata y Zeek y enviarlos a Kafka. Archivo de configuración: [`deployment/fluent-bit/td-agent-bit.conf`](./deployment/fluent-bit/td-agent-bit.conf).
     - **Suricata**: Utilizado para asegurar la consistencia de los flujos. Archivo de configuración: [`deployment/suricata/suricata.yaml`](./deployment/suricata/suricata.yaml).
-    - **Zeek**: Utilizado para análisis de flujos (TCP flags y estado de la conexion).
+    - **Zeek**: Utilizado para análisis de flujos (TCP flags y estado de la conexión).
     - **Wazuh**: Plataforma SIEM para monitorizar alertas.
 
 5. Ejecutar el script de despliegue ([`deployment/scripts/startConfiguration.sh`](./deployment/scripts/startConfiguration.sh).
