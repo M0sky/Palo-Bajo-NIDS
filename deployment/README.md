@@ -53,4 +53,4 @@ Esta sección contiene todos los scripts, configuraciones y recursos necesarios 
 - **Suricata**: Sensor de red para detección de intrusiones.  
 - **Zeek**: Análisis profundo de flujos de red.  
 - **Wazuh**: Plataforma SIEM para detección, alertas y monitoreo.  
-- **iptables**: Firewall para bloqueo dinámico de IPs. 
+- **Iptables**: Firewall para bloqueo dinámico de IPs. 
