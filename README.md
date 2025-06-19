@@ -14,8 +14,11 @@ Esta demostración muestra paso a paso el funcionamiento del sistema IDS/IPS des
 
 ### 1. Lanzamiento de la infraestructura
 
-![Inicio de servicios](./images/iniciarServicios.PNG)  
-_Ejecución del script `startConfiguration.sh`, que inicia Kafka, Zookeeper, Fluent Bit, Suricata, Zeek y el consumidor AI para procesamiento en tiempo real._
+<p align="center">
+  <img src="./images/iniciarServicios.PNG" alt="Inicio de servicios" />
+  <br>
+  <em>Ejecución del script <code>startConfiguration.sh</code>, que inicia Kafka, Zookeeper, Fluent Bit, Suricata, Zeek y el consumidor AI para procesamiento en tiempo real.</em>
+</p>
 
 ### 2. Ataque scan ACK desde Kali
 
