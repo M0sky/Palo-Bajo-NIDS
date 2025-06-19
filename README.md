@@ -26,35 +26,47 @@ Esta demostración muestra paso a paso el funcionamiento del sistema IDS/IPS des
 <p align="center">
   <img src="./images/scanACK.PNG" alt="Escaneo ACK desde Kali" />
 </p>
-_Kali realiza un escaneo ACK dirigido a la máquina víctima para detectar puertos abiertos._
+<p style="text-align: left; margin-top: 0; margin-bottom: 1em;">
+  <em>Kali realiza un escaneo ACK dirigido a la máquina víctima para detectar puertos abiertos.</em>
+</p>
 
 ### 3. Clasificación en tiempo real del modelo
 
 <p align="center">
   <img src="./images/clasificacion.PNG" alt="Clasificación en tiempo real" />
 </p>
-_Visualización de la salida del consumidor AI: se observa un primer ping detectado como tráfico normal, y el resto de flujos correctamente clasificados como escaneo (`scan`)._
+</p>
+<p style="text-align: left; margin-top: 0; margin-bottom: 1em;">
+  <em>Visualización de la salida del consumidor AI: se observa un primer ping detectado como tráfico normal, y el resto de flujos correctamente clasificados como escaneo (<code>scan</code>).</em>
+</p>
 
 ### 4. Bloqueo de ping desde Kali a la víctima
 
 <p align="center">
   <img src="./images/noPing.PNG" alt="Ping bloqueado" />
 </p>
-_Kali no recibe respuesta al ping a la víctima tras aplicar reglas `iptables` por detección previa del escaneo._
+<p style="text-align: left; margin-top: 0; margin-bottom: 1em;">
+  <em>Kali no recibe respuesta al ping a la víctima tras aplicar reglas <code>iptables</code> por detección previa del escaneo.</em>
+</p>
 
 ### 5. Wazuh Dashboard (vista 1)
 
 <p align="center">
   <img src="./images/wazuhDashboard1.PNG" alt="Wazuh Dashboard 1" />
 </p>
-_Panel de alertas en Wazuh mostrando eventos generados por la detección del escaneo, con detalles contextualizados._
+<p style="text-align: left; margin-top: 0; margin-bottom: 1em;">
+  <em>Panel de alertas en Wazuh mostrando eventos generados por la detección del escaneo, con detalles contextualizados.</em>
+</p>
 
 ### 6. Wazuh Dashboard (vista 2)
 
 <p align="center">
-  <img src="./images/6_wazuh_alert_2.png" alt="Wazuh Dashboard 2" />
+  <img src="./images/wazuhDashboard2.png" alt="Wazuh Dashboard 2" />
 </p>
-_Vista detallada de la alerta en Wazuh, con información de MITRE ATT&CK sobre la técnica y táctica detectadas._
+<p style="text-align: left; margin-top: 0; margin-bottom: 1em;">
+  <em>Vista detallada de la alerta en Wazuh, con información de MITRE ATT&CK sobre la técnica y táctica detectadas.</em>
+</p>
+
 ## [+] Cómo usar
 
 1. Clonar el repositorio:
