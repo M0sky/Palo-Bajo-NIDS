@@ -15,7 +15,7 @@ Esta demostración muestra paso a paso el funcionamiento del sistema IDS/IPS des
 ### 1. Despliegue de la infraestructura
 
 <p align="center">
-  <img src="./images/iniciarServicios.PNG" alt="Inicio de servicios" />
+  <img src="./images/iniciarServicios.PNG" alt="Inicio de servicios" width="600" />
 </p>
 <p style="text-align: left; margin-top: 0; margin-bottom: 1em;">
   <em>Ejecución del script <code>startConfiguration.sh</code>, que inicia Kafka, Zookeeper, Fluent Bit, Suricata, Zeek y el consumidor AI para procesamiento en tiempo real.</em>
@@ -24,7 +24,7 @@ Esta demostración muestra paso a paso el funcionamiento del sistema IDS/IPS des
 ### 2. Ataque scan ACK desde Kali
 
 <p align="center">
-  <img src="./images/scanACK.PNG" alt="Escaneo ACK desde Kali" />
+  <img src="./images/scanACK.PNG" alt="Escaneo ACK desde Kali" width="600" />
 </p>
 <p style="text-align: left; margin-top: 0; margin-bottom: 1em;">
   <em>Kali realiza un escaneo ACK dirigido a la máquina víctima para detectar puertos abiertos.</em>
@@ -33,7 +33,7 @@ Esta demostración muestra paso a paso el funcionamiento del sistema IDS/IPS des
 ### 3. Clasificación en tiempo real del modelo
 
 <p align="center">
-  <img src="./images/clasificacion.PNG" alt="Clasificación en tiempo real" />
+  <img src="./images/clasificacion.PNG" alt="Clasificación en tiempo real" width="600" />
 </p>
 </p>
 <p style="text-align: left; margin-top: 0; margin-bottom: 1em;">
@@ -43,7 +43,7 @@ Esta demostración muestra paso a paso el funcionamiento del sistema IDS/IPS des
 ### 4. Bloqueo de ping desde Kali a la víctima
 
 <p align="center">
-  <img src="./images/noPing.PNG" alt="Ping bloqueado" />
+  <img src="./images/noPing.PNG" alt="Ping bloqueado" width="600" />
 </p>
 <p style="text-align: left; margin-top: 0; margin-bottom: 1em;">
   <em>Kali no recibe respuesta del ping a la víctima tras aplicar reglas <code>iptables</code> por detección previa del escaneo.</em>
@@ -98,6 +98,6 @@ git lfs pull
 ## [+] Estructura del repositorio
 
 - `myLab/`: Topología en GNS3.
-- `labeling/`: Pipeline para generación de datasets etiquetados a partir de capturas PCAP.
-- `training/`: Scripts de preprocesado y entrenamiento del modelo binario.
+- `labeling/`: Pipeline para generación de datasets etiquetados a partir de las capturas PCAP.
+- `training/`: Scripts de preprocesado y entrenamiento del modelo de clasificación binario.
 - `deployment/`: Configuraciones y scripts para despliegue en tiempo real del sistema.
