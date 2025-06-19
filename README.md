@@ -12,11 +12,12 @@ Sistema IDS/IPS que utiliza un modelo de clasificación binaria basado en una re
 
 Esta demostración muestra paso a paso el funcionamiento del sistema IDS/IPS desde el despliegue hasta la detección y bloqueo de ataques.
 
-### 1. Lanzamiento de la infraestructura
+### 1. Despliegue de la infraestructura
 
 <p align="center">
   <img src="./images/iniciarServicios.PNG" alt="Inicio de servicios" />
-  <br>
+</p>
+<p style="text-align: left; margin-top: 0; margin-bottom: 1em;">
   <em>Ejecución del script <code>startConfiguration.sh</code>, que inicia Kafka, Zookeeper, Fluent Bit, Suricata, Zeek y el consumidor AI para procesamiento en tiempo real.</em>
 </p>
 
