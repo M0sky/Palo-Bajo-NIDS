@@ -113,6 +113,8 @@ git lfs pull
   <em>Arquitectura general del sistema de detección y prevención de intrusiones (IDS/IPS) centrado en comportamiento.</em>
 </p>
 
+## [+] Autor
+
 | **Authors:** | M0sky |
 |--------------|-------|
 | **Version:** | 1.0 as of 2025/06/19 |
