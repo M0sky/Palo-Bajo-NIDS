@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Objetivo -> Enriquecer mi dataset
-# Uso: ./scan_variants.sh <TIPO_ESCANEO> <IP_OBJETIVO>
+# Uso: ./mapping.sh <TIPO_ESCANEO> <IP_OBJETIVO>
 
 TIPO_ESCANEO="$1"   # Ej: sA, sS, sT, sF, sX...
 OBJETIVO="$2"       # Ej: 10.1.2.20
