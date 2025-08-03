@@ -115,7 +115,15 @@ git lfs pull
 
 ## [+] Prueba de concepto
 
-[![PoC IDS/IPS + DL](https://img.youtube.com/vi/Aaf9bwBuZc4/0.jpg)](https://www.youtube.com/watch?v=Aaf9bwBuZc4)
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=Aaf9bwBuZc4" target="_blank">
+    <img src="https://img.youtube.com/vi/Aaf9bwBuZc4/0.jpg" alt="PoC IDS/IPS + DL" />
+  </a>
+</p>
+
+<p style="text-align: center; margin-top: 0; margin-bottom: 1em;">
+  <em>Demostración del funcionamiento real del sistema IDS/IPS con Deep Learning.</em>
+</p>
 
 ## [+] Autor
 
