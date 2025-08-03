@@ -17,8 +17,8 @@ Este laboratorio ha sido diseñado como entorno de pruebas para el desarrollo de
 ### [>] IDS/IPS
 
 - **Ubuntu**: Máquina con IP forwarding activado para analizar los flows completos mediante dos interfaces.
-  - IP interna: `10.1.4.40`
-  - IP externa: `20.1.1.10`
+  - IP externa: `10.1.4.40`
+  - IP interna: `20.1.1.10`
 
 ### [>] Zona interna (Redes `20.1.X.0/24`)
 - **R2**: Segundo router Cisco 7200, conecta el IDS/IPS con la red víctima.
