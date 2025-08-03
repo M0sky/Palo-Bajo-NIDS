@@ -122,7 +122,7 @@ git lfs pull
 </p>
 
 <p style="text-align: center; margin-top: 0; margin-bottom: 1em;">
-  <em>Demostración del funcionamiento real del sistema IDS/IPS con Deep Learning.</em>
+  <em>Prueba de concepto en tiempo real del sistema IDS/IPS con Deep Learning.</em>
 </p>
 
 ## [+] Autor
